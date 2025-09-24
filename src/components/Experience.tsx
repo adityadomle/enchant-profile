@@ -38,7 +38,7 @@ const Experience = () => {
               key={exp.title}
               className={`timeline-item animate-slide-in-left animate-delay-${(index + 1) * 200}`}
             >
-              <div className="glass-card hover-lift">
+              <div className="glass-card professional-card">
                 <div className="flex flex-col lg:flex-row lg:items-start gap-6">
                   <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${exp.color} flex items-center justify-center shadow-lg flex-shrink-0`}>
                     <exp.icon size={28} className="text-white" />
@@ -54,7 +54,7 @@ const Experience = () => {
                           {exp.company}
                         </p>
                       </div>
-                      <span className="text-sm font-medium bg-gradient-to-r from-pink-100 to-purple-100 px-4 py-2 rounded-full text-pink-700 mt-2 sm:mt-0 self-start">
+                      <span className="text-sm font-medium bg-gradient-to-r from-pink-100 to-purple-100 dark:from-pink-900/30 dark:to-purple-900/30 px-4 py-2 rounded-full text-pink-700 dark:text-pink-300 mt-2 sm:mt-0 self-start">
                         {exp.period}
                       </span>
                     </div>
@@ -67,7 +67,7 @@ const Experience = () => {
                       {exp.skills.map((skill) => (
                         <span 
                           key={skill}
-                          className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:shadow-md transition-shadow"
+                          className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium shadow-sm"
                         >
                           {skill}
                         </span>

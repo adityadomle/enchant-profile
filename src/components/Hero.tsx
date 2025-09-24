@@ -35,7 +35,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              className="gradient-primary text-white hover:shadow-lg hover:scale-105 transition-all duration-300 px-8 py-4 text-lg font-semibold rounded-full"
+              className="gradient-primary text-white transition-colors duration-200 px-8 py-4 text-lg font-semibold rounded-full"
               asChild
             >
               <a 
@@ -52,7 +52,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-2 border-pink-400/50 text-foreground hover:bg-pink-50 hover:border-pink-400 transition-colors duration-300 px-8 py-4 text-lg rounded-full backdrop-blur-sm"
+              className="border-2 border-pink-400/50 text-foreground hover:bg-muted transition-colors duration-200 px-8 py-4 text-lg rounded-full backdrop-blur-sm"
               asChild
             >
               <a href="#projects" className="flex items-center gap-2">

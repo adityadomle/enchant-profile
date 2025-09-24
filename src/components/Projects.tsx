@@ -51,7 +51,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div 
               key={project.title}
-              className={`glass-card hover-lift animate-scale-in animate-delay-${(index + 1) * 100} ${
+              className={`glass-card professional-card animate-scale-in animate-delay-${(index + 1) * 100} ${
                 project.featured ? 'lg:col-span-1' : ''
               }`}
             >
@@ -71,7 +71,7 @@ const Projects = () => {
                 {project.tech.map((tech) => (
                   <span 
                     key={tech}
-                    className="bg-gradient-to-r from-pink-50 to-purple-50 text-pink-700 px-3 py-1 rounded-full text-sm font-medium border border-pink-200/50"
+                    className="bg-gradient-to-r from-pink-50 to-purple-50 dark:from-pink-900/20 dark:to-purple-900/20 text-pink-700 dark:text-pink-300 px-3 py-1 rounded-full text-sm font-medium border border-pink-200/50 dark:border-pink-800/50"
                   >
                     {tech}
                   </span>
@@ -81,7 +81,7 @@ const Projects = () => {
               <div className="flex gap-4">
                 <Button 
                   size="sm" 
-                  className="gradient-primary text-white hover:shadow-lg transition-all duration-300 flex items-center gap-2"
+                  className="gradient-primary text-white transition-colors duration-200 flex items-center gap-2"
                 >
                   <ExternalLink size={16} />
                   Live Demo
@@ -89,7 +89,7 @@ const Projects = () => {
                 <Button 
                   variant="outline" 
                   size="sm"
-                  className="border-pink-400/50 text-foreground hover:bg-pink-50 transition-colors duration-300 flex items-center gap-2"
+                  className="border-pink-400/50 text-foreground hover:bg-muted transition-colors duration-200 flex items-center gap-2"
                 >
                   <Github size={16} />
                   Code
@@ -103,7 +103,7 @@ const Projects = () => {
           <Button 
             variant="outline" 
             size="lg"
-            className="border-2 border-pink-400/50 text-foreground hover:bg-pink-50 hover:border-pink-400 transition-colors duration-300 px-8 py-4 text-lg rounded-full"
+            className="border-2 border-pink-400/50 text-foreground hover:bg-muted transition-colors duration-200 px-8 py-4 text-lg rounded-full"
             asChild
           >
             <a 

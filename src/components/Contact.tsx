@@ -48,7 +48,7 @@ const Contact = () => {
           </p>
           <Button 
             size="lg"
-            className="gradient-primary text-white hover:shadow-lg hover:scale-105 transition-all duration-300 px-8 py-4 text-lg font-semibold rounded-full"
+            className="gradient-primary text-white transition-colors duration-200 px-8 py-4 text-lg font-semibold rounded-full"
             asChild
           >
             <a href="mailto:khushi.chetule@example.com" className="flex items-center gap-2">
@@ -65,7 +65,7 @@ const Contact = () => {
               href={link.href}
               target={link.href.startsWith('http') ? '_blank' : undefined}
               rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-              className={`glass-card hover-lift text-center animate-fade-in-up animate-delay-${(index + 1) * 100} block`}
+              className={`glass-card professional-card text-center animate-fade-in-up animate-delay-${(index + 1) * 100} block`}
             >
               <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${link.color} flex items-center justify-center mb-4 mx-auto shadow-lg`}>
                 <link.icon size={24} className="text-white" />

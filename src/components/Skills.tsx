@@ -42,7 +42,7 @@ const Skills = () => {
           {skillCategories.map((category, index) => (
             <div 
               key={category.title}
-              className={`glass-card hover-lift animate-scale-in animate-delay-${(index + 1) * 100}`}
+              className={`glass-card professional-card animate-scale-in animate-delay-${(index + 1) * 100}`}
             >
               <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${category.color} flex items-center justify-center mb-6 mx-auto shadow-lg`}>
                 <category.icon size={28} className="text-white" />
@@ -56,7 +56,7 @@ const Skills = () => {
                 {category.skills.map((skill) => (
                   <div 
                     key={skill}
-                    className="bg-gradient-to-r from-pink-50 to-purple-50 rounded-lg px-3 py-2 text-sm font-medium text-center transition-colors hover:from-pink-100 hover:to-purple-100"
+                    className="bg-gradient-to-r from-pink-50 to-purple-50 dark:from-pink-900/20 dark:to-purple-900/20 rounded-lg px-3 py-2 text-sm font-medium text-center"
                   >
                     {skill}
                   </div>
