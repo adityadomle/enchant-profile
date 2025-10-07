@@ -14,17 +14,16 @@ const IntroductionPage = async () => {
   return (
     <>
       <PageHeader>
-        <PageHeaderHeading>Abhishek Ghimire</PageHeaderHeading>
+        <PageHeaderHeading>Aditya Domle</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
           A coder by day, problem-solver by night!
         </PageHeaderHeading>
         <PageHeaderDescription>
           I am a dedicated Software Engineer specializing in full-stack
           application development. I enjoy crafting responsive web solutions
-          using modern technologies like Next.js, React, and Tailwind CSS.
-          Currently, I am expanding my skills into mobile development with React
-          Native and Expo, aiming to deliver comprehensive, user-centric
-          software solutions.
+          using modern technologies like Next.js, React, Tailwind CSS, Node.js,
+          Express, and MongoDB, while also applying DevOps practices, continuously
+          aiming to deliver high-quality, comprehensive, user-centric software solutions.
         </PageHeaderDescription>
         <PageActions>
           <Button asChild size="sm" className="rounded-md">
