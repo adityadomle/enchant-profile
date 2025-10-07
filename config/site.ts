@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: 'Portfolio - Aditya Domle',
+  name: 'aditya.is-dev',
   url: 'https://imaditya.vercel.app',
   description: 'Portfolio of Aditya Domle, Full-Stack Web Developer & DevOps enthusiast.',
   keywords: [
