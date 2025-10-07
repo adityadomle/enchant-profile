@@ -19,7 +19,7 @@ const EducationPage = () => {
           Education has always been the cornerstone of my journey into the tech
           world. Pursuing a Bachelor's in Computer Application (BCA) at GH Raisoni
           College of Engineering and Management, Nagpur, has provided me a
-          strong foundation in computer science and software development principles.
+          strong foundation in computer science and software development.
         </PageHeaderDescription>
 
         <PageHeaderDescription>

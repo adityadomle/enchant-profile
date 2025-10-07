@@ -2,21 +2,19 @@ import { TimelineViewerData } from '@/types/TimelineViewer.types';
 
 export const experiences: TimelineViewerData[] = [
   {
-    title: 'Mobile and Web Developer · Mantra IT',
-    date: 'Mar. 2025 - Present',
-    description: `Currently building responsive web and mobile applications, including
-    an air ticketing platform and E-Grow farming app, using React,
-    Next.js, and React Native at Mantra IT.`,
+    title: 'Open Source Developer · Hacktoberfest',
+    date: 'Oct. 2025 - Present',
+    description: `Currently contributing as an Open Source Developer at Hacktoberfest, working on various web development projects and collaborating with the global developer community.`,
     latest: true,
   },
   {
-    title: 'Next.js Developer Internship · Treeleaf Technologies',
-    date: 'Feb. 2025 - Mar. 2025',
-    description: `Interned as a Next.js Developer at Treeleaf Technologies, developing and maintaining front-end components for web applications using React and Next.js while mastering modern web development practices.`,
+    title: 'Trainee · Sheriyans Coding School',
+    date: 'May 2025 - Oct. 2025',
+    description: `Trainee at Sheriyans Coding School, learned full-stack technologies and DevOps practices. Participated in hackathons and collaborated on projects with the developer community.`,
   },
   {
-    title: 'CloudWorker (Part-time) · CloudFactory',
-    date: 'Dec. 2023 - Present',
-    description: `Working as a part-time CloudWorker at CloudFactory, where I annotate diverse datasets to support AI and machine learning projects while honing my attention to detail and time management skills.`,
+    title: 'Project Admin · GSSoC25 (GirlScript Summer of Code)',
+    date: 'Aug. 2025 - Sept. 2025',
+    description: `As a Project Admin, I reviewed code, merged pull requests, and communicated with developers, ensuring smooth project workflow and collaboration during GSSoC25.`,
   },
 ];
