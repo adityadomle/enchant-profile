@@ -17,9 +17,9 @@ const EducationPage = () => {
         </PageHeaderHeading>
         <PageHeaderDescription>
           Education has always been the cornerstone of my journey into the tech
-          world. Pursuing a Bachelor's in Information Technology (BIT) at Patan
-          Multiple Campus has provided me with a solid foundation in computer
-          science and software engineering principles.
+          world. Pursuing a Bachelor's in Computer Application (BCA) at GH Raisoni
+          College of Engineering and Management, Nagpur, has provided me a
+          strong foundation in computer science and software development principles.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
