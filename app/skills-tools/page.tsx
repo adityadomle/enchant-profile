@@ -19,8 +19,8 @@ const SkillsToolsPage = () => {
         <PageHeaderDescription>
           As a full-stack Software Engineer, I specialize in building scalable
           web applications using modern technologies such as Next.js, React, and
-          Tailwind CSS. I'm also expanding my expertise into mobile development
-          with React Native and Expo to create cross-platform solutions.
+          Tailwind CSS. I'm also expanding my expertise into DevOps and cloud
+          practices to create efficient, maintainable, robust web solutions.
         </PageHeaderDescription>
       </PageHeader>
 
