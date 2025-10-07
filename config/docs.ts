@@ -6,7 +6,7 @@ export const docsConfig = {
     },
     //   {
     //     title: "Blog",
-    //     href: "https://blog.abhishekg.com.np",
+    //     href: "https://imaditya.vercel.app/about",
     //   },
   ],
   sidebarNav: [
