@@ -129,7 +129,7 @@ const ContactForm = () => {
               message: '',
             })
           }
-        >
+        > 
           Reset
         </Button>
       </div>

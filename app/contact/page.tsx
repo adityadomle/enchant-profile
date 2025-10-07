@@ -13,7 +13,7 @@ const ContactPage = async () => {
       </PageHeader>
 
       <div className="mt-4">
-        <ContactForm />
+        <ContactForm /> 
       </div>
 
       <Pager
