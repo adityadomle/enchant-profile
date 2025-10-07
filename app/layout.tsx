@@ -27,11 +27,11 @@ export const metadata: Metadata = {
   keywords: siteConfig.keywords,
   authors: [
     {
-      name: 'Abhishek Ghimire',
-      url: 'https://abhishekg.com.np',
+      name: 'Aditya Domle',
+      url: 'https://imaditya.vercel.app',
     },
   ],
-  creator: 'Abhishek Ghimire',
+  creator: 'Aditya Domle',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: siteConfig.name,
     description: siteConfig.description,
-    creator: '@cypherab01',
+    creator: '@env_aditya',
   },
   icons: {
     icon: '/favicon.ico',
