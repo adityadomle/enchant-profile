@@ -9,7 +9,7 @@ const AboutMePage = () => {
   return (
     <>
       <PageHeader>
-        <PageHeaderHeading>About Abhishek</PageHeaderHeading>
+        <PageHeaderHeading>About Aditya</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
           More than just a title—let’s dive deeper!
         </PageHeaderHeading>
@@ -22,10 +22,7 @@ const AboutMePage = () => {
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          With a strong foundation in JavaScript frameworks, I focus on creating
-          scalable, efficient, and visually appealing applications. Currently, I
-          am diving deeper into mobile development with React Native and Expo to
-          expand my skill set and deliver versatile, cross-platform solutions.
+          With a strong foundation in JavaScript frameworks, I focus on creating scalable, efficient, and visually appealing applications. Currently, I am diving deeper into backend development with Node.js and Express to expand my skill set and deliver powerful, server-side solutions.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
