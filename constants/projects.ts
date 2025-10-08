@@ -1,47 +1,46 @@
 export const projects = [
   {
-    title: "Chineko Pasal | An eCommerce Platform in Nepal",
-    slug: "chineko-pasal",
+    title: "Nike Reimagined | Modern Redesign Concept",
+    slug: "nike-reimagined",
     tagline:
-      "A dynamic eCommerce platform designed to cater to the diverse needs of Nepali users.",
+      "A sleek and modern redesign of Nike’s official web experience built with React and Tailwind CSS.",
     overview:
-      "Chineko Pasal is an innovative eCommerce platform that aims to simplify online shopping in Nepal. It offers a seamless user experience with a modern, responsive UI and features tailored to Nepali audiences. The platform integrates efficient search, smooth navigation, and a robust system to ensure a hassle-free shopping experience.",
+      "Nike Reimagined is a creative redesign project focused on delivering a refined, high-performance web experience inspired by Nike’s global brand identity. It highlights a clean, minimal UI with smooth transitions, responsive layouts, and optimized performance across devices. The project demonstrates a balance of aesthetics and functionality for a real-world eCommerce feel.",
     features: [
-      "Modern and intuitive UI/UX design",
-      "Mobile-responsive and cross-browser compatible",
-      "Secure and optimized login and checkout flows",
-      "Product zoom and image carousel for detailed product views",
-      "Integration with social media sharing and Google Analytics",
+      "Minimalist and modern user interface design",
+      "Fully responsive layouts optimized for all devices",
+      "Smooth page transitions and animations with Framer Motion",
+      "Optimized build process with Vite for fast loading",
+      "Deployed on Vercel for production-grade performance",
     ],
     techStack: [
       "React.js",
-      "Next.js",
       "Tailwind CSS",
-      "Ant Design",
-      "Axios",
+      "Vite",
       "Framer Motion",
-      "Zustand",
+      "Vercel",
     ],
     challenges: [
-      "Developing a scalable architecture for high traffic.",
-      "Creating a user-friendly interface optimized for Nepali audiences.",
-      "Ensuring smooth performance on low-bandwidth networks.",
-      "Integrating secure payment and product management features.",
+      "Maintaining brand consistency while reimagining Nike’s design language.",
+      "Achieving smooth animations without affecting performance.",
+      "Ensuring pixel-perfect responsiveness across devices.",
+      "Optimizing load times for a better user experience.",
     ],
     learnings: [
-      "Designed and developed reusable React components.",
-      "Enhanced mobile responsiveness and UX-friendly designs.",
-      "Deepened knowledge of integrating third-party libraries effectively.",
-      "Gained hands-on experience with performance optimization techniques.",
+      "Mastered efficient UI composition with React and Tailwind CSS.",
+      "Improved understanding of animation principles using Framer Motion.",
+      "Enhanced deployment workflow using Vercel and Vite integration.",
+      "Developed better practices for responsive and scalable frontend design.",
     ],
     feedback: false,
     links: {
-      live: "https://chinekopasal.com",
-      github: "",
+      live: "https://nike-reimagined-mu.vercel.app/",
+      github: "https://github.com/adityadomle/nike-reimagined",
     },
   },
+
   {
-    title: "Portfolio | Abhishek Ghimire",
+    title: "Portfolio | Aditya Domle",
     slug: "portfolio",
     tagline:
       "A dynamic portfolio showcasing my projects, skills, and contributions using the latest web technologies.",
@@ -78,8 +77,8 @@ export const projects = [
     ],
     feedback: true,
     links: {
-      live: "https://abhishekg.com.np",
-      github: "https://github.com/cypherab01/abhishekg.com.np",
+      live: "https://adi-ten.vercel.app",
+      github: "https://github.com/adityadomle",
     },
   },
   {
