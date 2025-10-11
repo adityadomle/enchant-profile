@@ -1,10 +1,10 @@
 export const siteConfig = {
-  name: 'aditya.is-dev',
-  url: 'https://imaditya.vercel.app',
+  name: 'aadi.is-dev',
+  url: 'https://aadi.is-a.dev',
   description: 'Portfolio of Aditya Domle, Full-Stack Web Developer & DevOps enthusiast.',
   keywords: [
     'Aditya Domle',
-    'Aditya D',
+    'aditya domle',
     'aditya.com',
     'Aditya Domle Portfolio',
     'Aditya Domle Projects',

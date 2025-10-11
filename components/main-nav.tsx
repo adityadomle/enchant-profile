@@ -34,7 +34,7 @@ export function MainNav() {
 
         <Link
           target="_blank"
-          href="https://imaditya.vercel.app/about"
+          href="https://aadi.is-a.dev"
           className={cn(
             "transition-colors hover:text-foreground/80 flex gap-1",
             pathname?.startsWith("/blog")
